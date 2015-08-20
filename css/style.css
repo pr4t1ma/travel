@@ -12,6 +12,10 @@ ul {
   clear: both;
   height: 0; }
 
+.title {
+  margin: 30px;
+  font-size: 25px; }
+
 .triangle {
   width: 0;
   height: 0;
@@ -283,39 +287,37 @@ input[type="submit"] {
   padding: 30px 20px;
   color: #aeaeae; }
 
-.sales {
+.sales, .rent {
   margin-bottom: 100px; }
-  .sales .title {
-    margin: 30px;
-    font-size: 25px; }
-  .sales .sales-right-sidebar {
+  .sales .sales-right-sidebar, .rent .sales-right-sidebar {
     margin: 30px; }
-    .sales .sales-right-sidebar .icon-list {
+    .sales .sales-right-sidebar .icon-list, .rent .sales-right-sidebar .icon-list {
       float: left; }
-      .sales .sales-right-sidebar .icon-list li {
+      .sales .sales-right-sidebar .icon-list li, .rent .sales-right-sidebar .icon-list li {
         float: left;
         padding: 0 10px; }
-      .sales .sales-right-sidebar .icon-list .sub-menu {
+      .sales .sales-right-sidebar .icon-list .sub-menu, .rent .sales-right-sidebar .icon-list .sub-menu {
         position: relative;
         display: none; }
-        .sales .sales-right-sidebar .icon-list .sub-menu:hover {
+        .sales .sales-right-sidebar .icon-list .sub-menu:hover, .rent .sales-right-sidebar .icon-list .sub-menu:hover {
           display: block; }
-        .sales .sales-right-sidebar .icon-list .sub-menu li {
+        .sales .sales-right-sidebar .icon-list .sub-menu li, .rent .sales-right-sidebar .icon-list .sub-menu li {
           padding: 5px 8px;
           background-color: #0b2133;
           color: #fff;
           border-radius: 5px;
           font-size: 12px; }
     .sales .sales-right-sidebar .icon-list ul li i.fa.fa-th-large,
-    .sales .sales-right-sidebar .icon-list ul li i.fa.fa-list-ul {
+    .sales .sales-right-sidebar .icon-list ul li i.fa.fa-list-ul, .rent .sales-right-sidebar .icon-list ul li i.fa.fa-th-large,
+    .rent .sales-right-sidebar .icon-list ul li i.fa.fa-list-ul {
       font-size: 25px;
       margin-bottom: 10px; }
-    .sales .sales-right-sidebar select.form-control {
+    .sales .sales-right-sidebar select.form-control, .rent .sales-right-sidebar select.form-control {
       float: right;
       width: 50%; }
-  .sales .img-wrapper img {
+  .sales .img-wrapper img, .rent .img-wrapper img {
     position: relative; }
-    .sales .img-wrapper img span {
+    .sales .img-wrapper img span, .rent .img-wrapper img span {
       background-color: #75b08a;
       padding: 10px;
       color: #fff;
@@ -339,5 +341,25 @@ input[type="submit"] {
         border-right: none; }
       .property-wrap .more-details ul li i.fa {
         padding-right: 10px; }
+
+.rent .row.rent-wrapper {
+  margin-top: 20px; }
+
+.vip .row.pd-top {
+  margin-bottom: 10px; }
+.vip .vip-wrapper {
+  background-color: #f5f5f5;
+  padding: 20px 0; }
+.vip .vip-left-img {
+  float: left;
+  width: 48%; }
+.vip .vip-rihjt-text {
+  float: left;
+  width: 50%;
+  min-height: 328px;
+  background-color: #fff;
+  padding: 10px 20px; }
+  .vip .vip-rihjt-text p {
+    line-height: 25px; }
 
 /*# sourceMappingURL=style.css.map */

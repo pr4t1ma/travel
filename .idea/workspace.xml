@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a3ba5fc-039c-4f53-aab6-880c9b61a183" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sales.html" afterPath="$PROJECT_DIR$/sales.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rent.html" afterPath="$PROJECT_DIR$/rent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="travel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,9 +46,34 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23163842" vertical-offset="6473" max-vertical-offset="8313">
-              <caret line="388" column="2" selection-start-line="388" selection-start-column="2" selection-end-line="388" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.48775893" vertical-offset="8241" max-vertical-offset="8874">
+              <caret line="500" column="17" selection-start-line="500" selection-start-column="17" selection-end-line="500" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vip.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vip.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.5" vertical-offset="1619" max-vertical-offset="3179">
+              <caret line="161" column="54" selection-start-line="161" selection-start-column="54" selection-end-line="161" selection-end-column="54" />
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.461538" vertical-offset="3610" max-vertical-offset="4352">
+              <caret line="386" column="6" selection-start-line="386" selection-start-column="6" selection-end-line="386" selection-end-column="6" />
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +108,8 @@
         <option value="$PROJECT_DIR$/scss/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sales.html" />
+        <option value="$PROJECT_DIR$/rent.html" />
+        <option value="$PROJECT_DIR$/vip.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
@@ -389,10 +417,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.461538" vertical-offset="3610" max-vertical-offset="4352">
+          <caret line="386" column="6" selection-start-line="386" selection-start-column="6" selection-end-line="386" selection-end-column="6" />
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="1619" max-vertical-offset="3179">
+          <caret line="161" column="54" selection-start-line="161" selection-start-column="54" selection-end-line="161" selection-end-column="54" />
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23163842" vertical-offset="6473" max-vertical-offset="8313">
-          <caret line="388" column="2" selection-start-line="388" selection-start-column="2" selection-end-line="388" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.48775893" vertical-offset="8241" max-vertical-offset="8874">
+          <caret line="500" column="17" selection-start-line="500" selection-start-column="17" selection-end-line="500" selection-end-column="17" />
           <folding />
         </state>
       </provider>

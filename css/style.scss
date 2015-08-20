@@ -16,6 +16,11 @@ ul {
 
 }
 
+.title {
+  margin: 30px;
+  font-size: 25px;
+}
+
 .triangle {
   width: 0;
   height: 0;
@@ -384,13 +389,10 @@ input[type="submit"] {
 
 //
 
-.sales {
+.sales, .rent {
   margin-bottom: 100px;
-  
-  .title {
-    margin: 30px;
-    font-size: 25px;
-  }
+
+
 
   .sales-right-sidebar {
     margin: 30px;
@@ -477,7 +479,39 @@ input[type="submit"] {
   }
 }
 
+//
+.rent {
 
+  .row.rent-wrapper {
+    margin-top: 20px;
+  }
+}
 
+.vip {
 
+  .row.pd-top {
+    margin-bottom: 10px;
+  }
 
+  .vip-wrapper {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+
+  .vip-left-img {
+    float: left;
+    width: 48%;
+  }
+
+  .vip-rihjt-text {
+    float: left;
+    width: 50%;
+    min-height: 328px;
+    background-color: #fff;
+    padding: 10px 20px;
+
+    p{
+      line-height: 25px;
+    }
+  }
+}
