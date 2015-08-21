@@ -19,6 +19,7 @@ ul {
 .title {
   margin: 30px;
   font-size: 25px;
+  text-transformer :uppercase;
 }
 
 .triangle {
@@ -42,6 +43,15 @@ ul {
   position: absolute;
   top: 65px;
   left: 20px;
+}
+
+.property-price {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  background-color: #ececec;
+  padding: 20px 10px;
+  width: 50%;
 }
 
 img {
@@ -227,6 +237,11 @@ i.fa.fa-home, i.fa.fa-briefcase, i.fa.fa-star {
 
 .recent-properties img {
   max-width: 100%;
+
+  .property-price{
+    paddimg:10px;
+  }
+
 }
 
 .price-wrapper {
@@ -240,7 +255,6 @@ i.fa.fa-home, i.fa.fa-briefcase, i.fa.fa-star {
 }
 
 .property-action.last {
-  width: 430%;
   padding: 25px;
 }
 
@@ -275,14 +289,7 @@ i.fa.fa-home, i.fa.fa-briefcase, i.fa.fa-star {
 .property-summary {
   min-height: 50px;
 
-  .property-price {
-    float: left;
-    display: inline-block;
-    font-size: 14px;
-    background-color: #ececec;
-    padding: 20px 10px;
-    width: 50%;
-  }
+
 
   .property-action a {
     color: #cdc15a;
@@ -492,6 +499,9 @@ input[type="submit"] {
     &:hover {
       transform: scale(0.98);
     }
+    p:hover{
+      color:#00f ;
+    }
 
   }
   .row.pd-top {
@@ -551,7 +561,8 @@ input[type="submit"] {
   .title {
     font-size: 50px;
     padding-bottom: 70px;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #ccc;
+
   }
   .noo-text-block {
     h4 {
@@ -635,6 +646,11 @@ input[type="submit"] {
     padding: 25px;
     margin: 10px 0;
   }
+
+  textarea.form-control{
+    min-height: 200px;
+  }
+
   .btn-default {
     width: 100%;
     background: #f0e797;
