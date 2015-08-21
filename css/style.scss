@@ -392,8 +392,6 @@ input[type="submit"] {
 .sales, .rent {
   margin-bottom: 100px;
 
-
-
   .sales-right-sidebar {
     margin: 30px;
 
@@ -488,7 +486,14 @@ input[type="submit"] {
 }
 
 .vip {
+  .vip-offer-item {
+    transition: all 0.3s;
 
+    &:hover {
+      transform: scale(0.98);
+    }
+
+  }
   .row.pd-top {
     margin-bottom: 10px;
   }
@@ -510,8 +515,146 @@ input[type="submit"] {
     background-color: #fff;
     padding: 10px 20px;
 
-    p{
+    p {
       line-height: 25px;
     }
   }
 }
+
+
+//contact page starts from here//
+.contact-info-wrapper {
+  background: #f8f8f8;
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 30px;
+  h5{
+    font-size: 20px;
+  }
+
+  strong {
+    float: right;
+    overflow: hidden;
+    display: block;
+    width: 60%;
+  }
+  b {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+  }
+}
+
+//form css starts from here//
+.contact-wrapper {
+
+  .title {
+    font-size: 50px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #ccc
+  }
+  .noo-text-block {
+    h4 {
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 12px;
+      letter-spacing: 1;
+    }
+  }
+  .contact-sidebar {
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+
+    h3 {
+      padding-left: 35px;
+      margin-bottom: 30px;
+    }
+
+    .sidebar-wrapper {
+      background-color: #f9f9f9;
+      padding: 35px;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 0 30px;
+      .btn-default {
+        background: #ededed;
+        color: #94a2a7;
+        padding: 40px 0;
+
+        &:hover {
+          color: #fff;
+          background: #184b72;
+        }
+      }
+      select.form-control {
+        margin: 20px 0;
+        text-align: center;
+        font-size: 15px;;
+      }
+    }
+
+    .recent-properties {
+
+      .title {
+        border-bottom: none;
+        font-size: 20px;
+        margin: 0;
+        padding: 30px  0 5px 60px;
+      }
+
+      .recent-wrapper {
+        padding: 35px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 30px;
+
+        .row.recent-block {
+          margin-bottom: 20px;
+        }
+        h4 {
+          margin: 5px 0;
+          font-size: 12px;
+        }
+        a {
+          text-decoration: none;
+          font-size: 15px;
+        }
+      }
+    }
+
+  }
+
+  label {
+    margin: 10px 0;
+  }
+  input#name, input#email,
+  input#subject, input#text {
+    padding: 25px;
+    margin: 10px 0;
+  }
+  .btn-default {
+    width: 100%;
+    background: #f0e797;
+    color: #c1b547;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+
+    &:hover {
+      background: #184b72;
+      color: #fff;
+    }
+  }
+}
+
+//form css Ends from here//
+
+//contact page Ends from here//
+
+
