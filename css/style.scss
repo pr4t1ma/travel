@@ -19,7 +19,7 @@ ul {
 .title {
   margin: 30px;
   font-size: 25px;
-  text-transformer :uppercase;
+  text-transformer: uppercase;
 }
 
 .triangle {
@@ -110,11 +110,17 @@ ul {
       color: #ccc;
       border-left: 1px solid #ddd;
       padding-left: 10px;
+
       a {
         padding: 0;
         text-decoration: none;
         font-size: 18px;
         color: #2d313f;
+      }
+
+      .call-us {
+        font-size: 20px;
+        color: #c9c9c9;
       }
     }
 
@@ -238,8 +244,8 @@ i.fa.fa-home, i.fa.fa-briefcase, i.fa.fa-star {
 .recent-properties img {
   max-width: 100%;
 
-  .property-price{
-    paddimg:10px;
+  .property-price {
+    paddimg: 10px;
   }
 
 }
@@ -288,8 +294,6 @@ i.fa.fa-home, i.fa.fa-briefcase, i.fa.fa-star {
 
 .property-summary {
   min-height: 50px;
-
-
 
   .property-action a {
     color: #cdc15a;
@@ -499,8 +503,8 @@ input[type="submit"] {
     &:hover {
       transform: scale(0.98);
     }
-    p:hover{
-      color:#00f ;
+    p:hover {
+      color: #00f;
     }
 
   }
@@ -531,14 +535,13 @@ input[type="submit"] {
   }
 }
 
-
 //contact page starts from here//
 .contact-info-wrapper {
   background: #f8f8f8;
   padding: 10px 15px;
   font-size: 12px;
   line-height: 30px;
-  h5{
+  h5 {
     font-size: 20px;
   }
 
@@ -613,7 +616,7 @@ input[type="submit"] {
         border-bottom: none;
         font-size: 20px;
         margin: 0;
-        padding: 30px  0 5px 60px;
+        padding: 30px 0 5px 60px;
       }
 
       .recent-wrapper {
@@ -647,7 +650,7 @@ input[type="submit"] {
     margin: 10px 0;
   }
 
-  textarea.form-control{
+  textarea.form-control {
     min-height: 200px;
   }
 

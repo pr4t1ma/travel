@@ -86,6 +86,9 @@ ul {
       text-decoration: none;
       font-size: 18px;
       color: #2d313f; }
+    .header .navbar .calling-desc .call-us {
+      font-size: 20px;
+      color: #c9c9c9; }
   .header .navbar ul.dropdown-menu {
     position: absolute;
     top: 72px;
@@ -426,7 +429,7 @@ input[type="submit"] {
     border-bottom: none;
     font-size: 20px;
     margin: 0;
-    padding: 30px  0 5px 60px; }
+    padding: 30px 0 5px 60px; }
   .contact-wrapper .contact-sidebar .recent-properties .recent-wrapper {
     padding: 35px;
     box-sizing: border-box;
