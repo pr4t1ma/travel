@@ -105,28 +105,11 @@ ul {
       }
     }
 
-    .calling-desc {
-      font-size: 20px;
-      color: #ccc;
-      border-left: 1px solid #ddd;
-      padding-left: 10px;
 
-      a {
-        padding: 0;
-        text-decoration: none;
-        font-size: 18px;
-        color: #2d313f;
-      }
-
-      .call-us {
-        font-size: 20px;
-        color: #c9c9c9;
-      }
-    }
 
     ul.dropdown-menu {
       position: absolute;
-      top: 72px;
+      top: 70px;
       /* bottom: 4px; */
       z-index: 3;
       border-top: 2px solid red;
@@ -167,6 +150,21 @@ ul {
       }
 
     }
+
+  }
+  .calling-desc {
+    font-size: 20px;
+    color: #ccc;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+
+    a {
+      padding: 0;
+      text-decoration: none;
+      font-size: 15px;
+      color: #2d313f;
+    }
+
 
   }
 
