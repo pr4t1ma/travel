@@ -181,7 +181,7 @@ img {
   max-width: 100%; }
 
 .property-price {
-  paddimg: 10px; }
+  padding: 10px; }
 
 .price-wrapper {
   width: 100%; }
@@ -358,7 +358,6 @@ input[type="submit"] {
   background-color: #75b08a;
   color: #fff;
   padding: 8px 20px;
-  ntext-align: center;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold; }
@@ -463,8 +462,7 @@ input[type="submit"] {
 .contact-wrapper label {
   margin: 10px 0;
   font-weight: normal; }
-.contact-wrapper input#name, .contact-wrapper input#email,
-.contact-wrapper input#subject, .contact-wrapper input#text {
+.contact-wrapper input {
   padding: 25px;
   margin: 10px 0; }
 .contact-wrapper textarea.form-control {

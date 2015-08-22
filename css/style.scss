@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;;
+  background: #ffffff;
 }
 
 ul {
@@ -268,7 +268,7 @@ img {
 }
 
 .property-price {
-  paddimg: 10px;
+  padding: 10px;
 }
 .price-wrapper {
   width: 100%;
@@ -513,7 +513,6 @@ input[type="submit"] {
   background-color: #75b08a;
   color: #fff;
   padding: 8px 20px;
-  ntext-align: center;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -680,8 +679,7 @@ input[type="submit"] {
     margin: 10px 0;
     font-weight: normal;
   }
-  input#name, input#email,
-  input#subject, input#text {
+  input{
     padding: 25px;
     margin: 10px 0;
   }
