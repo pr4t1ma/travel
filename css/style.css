@@ -368,7 +368,21 @@ input[type="submit"] {
 .footer {
   background: #212527;
   padding: 30px 20px;
-  color: #aeaeae; }
+  color: #aeaeae;
+  position: relative; }
+  .footer button.go-to-top {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    padding: 5px;
+    top: 0px;
+    transition: 0.5s;
+    background-color: #212527;
+    border: none;
+    opacity: 0.5; }
+    .footer button.go-to-top:hover {
+      background-color: #fff; }
 
 .sales, .rent {
   margin-bottom: 100px; }
