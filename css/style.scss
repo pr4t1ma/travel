@@ -15,6 +15,40 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   font-weight: normal;
 }
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+button.btn.btn-primary {
+  width: 50%;
+  padding: 20px 0;
+  color: #cdc15a;
+  background-color: #f0e797;
+  borfer: none;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0;
+
+  &:hover{
+    color: #fff;
+    background-color: #184b72 ;
+  }
+}
+
+h2 {
+  font-weight: normal;
+  margin: 30px 0;
+}
+
+img {
+  max-width: 100%;
+}
 
 .clearfix:after {
   content: " ";
@@ -77,17 +111,10 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-img {
-  max-width: 100%;
-}
 
-ul {
-  list-style: none;
-}
 
 .padding0 {
   padding: 0;
-
 }
 
 // this wont work until we are able to compile this SCSS to css
@@ -270,16 +297,10 @@ ul {
   }
 }
 
-h2 {
-  font-weight: normal;
-  margin: 30px 0;
-}
 
-img {
-  max-width: 100%;
-}
 
 .property-wrap {
+  margin-bottom: 10px;
   .property-img-wrap {
 
     position: relative;
@@ -302,7 +323,7 @@ img {
       }
       .overlay-title {
         background: rgba(255, 255, 255, 0.8);
-        margin: 30px;
+        margin: 25px;
         padding: 5px 15px;
         text-transform: uppercase;
 
@@ -314,10 +335,44 @@ img {
     display: block;
   }
 }
+.property-wrap {
+  .sub-title {
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .more-details {
+    margin-bottom: 2px;
+    ul {
+      border: 1px solid #ccc;
+      li {
+        float: left;
+        padding: 20px 10px;
+        border-right: 1px solid #ccc;
+        font-size: 15px;
+        text-align: center;
 
-.property-price {
-  padding: 10px;
+        &.area {
+          width: 50%;
+        }
+        &.toilet {
+          width: 25%;
+        }
+        &.bed {
+          width: 25%;
+          border-right: none;
+        }
+
+        i.fa {
+          padding-right: 10px;
+          color: #aacdb6;
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
+
 
 .price-wrapper {
   width: 100%;
@@ -326,7 +381,6 @@ img {
 .property-price.large {
   max-width: 500px;
   width: 50%;
-  padding: 25px;
 }
 
 .property-action.last {
@@ -527,43 +581,7 @@ input[type="submit"] {
 
 }
 
-.property-wrap {
-  .sub-title {
-    background-color: #f9f9f9;
-    padding: 10px;
-    font-size: 20px;
-  }
-  .more-details {
-    margin-bottom: 2px;
-    ul {
-      border: 1px solid #ccc;
-      li {
-        float: left;
-        padding: 20px 10px;
-        border-right: 1px solid #ccc;
-        font-size: 15px;
-        text-align: center;
 
-        &.area {
-          width: 50%;
-        }
-        &.toilet {
-          width: 25%;
-        }
-        &.bed {
-          width: 25%;
-          border-right: none;
-        }
-
-        i.fa {
-          padding-right: 10px;
-          color: #aacdb6;
-          font-size: 20px;
-        }
-      }
-    }
-  }
-}
 
 .new {
   position: absolute;
