@@ -6,9 +6,11 @@ ul {
   padding: 0;
   margin: 0;
 }
-a{
-  text-decoration:none;
+
+a {
+  text-decoration: none;
 }
+
 h1, h2, h3, h4 {
   text-transform: uppercase;
   font-weight: normal;
@@ -29,15 +31,28 @@ h1, h2, h3, h4 {
   text-transformer: uppercase;
 }
 
-.triangle {
+.triangle-left::after {
   width: 0;
   height: 0;
-  border-top: 2px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 11px solid #f9f9f9;
+  border-bottom: 11px solid transparent;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  content: " ";
+}
+
+.triangle-right::after {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
   border-right: 11px solid #f9f9f9;
   border-bottom: 11px solid transparent;
   position: absolute;
   top: 11px;
-  left: -11px;
+  right: 0px;
+  content: " ";
 }
 
 .triangle-up {
@@ -187,26 +202,24 @@ ul {
 
 }
 
-
 .our-services {
   background: #384653 url(../images/bg-home-services1.jpg) no-repeat center center;
   background-size: cover;
   opacity: 1px;
 
   .our-services-inner {
-    background-color: rgba(0,50,100,0.8);
+    background-color: rgba(0, 50, 100, 0.8);
     padding-top: 100px;
 
-
-    a{
+    a {
       border-bottom: 1px;
     }
 
     .service:hover {
-      .big-circle{
-        background: rgba(111,111,89,0.4);
-        .small-circle{
-          background: rgba(111,111,89,0.4);
+      .big-circle {
+        background: rgba(111, 111, 89, 0.4);
+        .small-circle {
+          background: rgba(111, 111, 89, 0.4);
         }
       }
     }
@@ -215,7 +228,7 @@ ul {
       border-radius: 50%;
       width: 110px;
       height: 110px;
-      background: rgba(255,255,255,0.15);
+      background: rgba(255, 255, 255, 0.15);
       max-width: 35%;
       margin: 0 auto;
       padding: 15px;
@@ -223,10 +236,10 @@ ul {
         border-radius: 50%;
         width: 80px;
         height: 80px;
-        background: rgba(255,255,255,0.15);
+        background: rgba(255, 255, 255, 0.15);
         text-align: center;
 
-        i.fa{
+        i.fa {
           line-height: 80px;
           font-size: 33px;
           color: #fff;
@@ -235,7 +248,6 @@ ul {
     }
   }
 }
-
 
 .text-block {
   text-align: center;
@@ -267,9 +279,46 @@ img {
   max-width: 100%;
 }
 
+.property-wrap {
+  .property-img-wrap {
+
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+
+      .more-details {
+        background: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        margin: 0;
+      }
+      .overlay-title {
+        background: rgba(255, 255, 255, 0.8);
+        margin: 30px;
+        padding: 5px 15px;
+        text-transform: uppercase;
+
+      }
+    }
+
+  }
+  &:hover .overlay {
+    display: block;
+  }
+}
+
 .property-price {
   padding: 10px;
 }
+
 .price-wrapper {
   width: 100%;
 }
@@ -490,15 +539,26 @@ input[type="submit"] {
       border: 1px solid #ccc;
       li {
         float: left;
-        padding: 20px 35px;
+        padding: 20px 10px;
         border-right: 1px solid #ccc;
         font-size: 15px;
+        text-align: center;
 
-        .last {
+        &.area {
+          width: 50%;
+        }
+        &.toilet {
+          width: 25%;
+        }
+        &.bed {
+          width: 25%;
           border-right: none;
         }
+
         i.fa {
           padding-right: 10px;
+          color: #aacdb6;
+          font-size: 20px;
         }
       }
     }
@@ -679,7 +739,7 @@ input[type="submit"] {
     margin: 10px 0;
     font-weight: normal;
   }
-  input{
+  input {
     padding: 25px;
     margin: 10px 0;
   }

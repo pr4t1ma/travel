@@ -24,15 +24,27 @@ h1, h2, h3, h4 {
   font-size: 25px;
   text-transformer: uppercase; }
 
-.triangle {
+.triangle-left::after {
   width: 0;
   height: 0;
-  border-top: 2px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 11px solid #f9f9f9;
+  border-bottom: 11px solid transparent;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  content: " "; }
+
+.triangle-right::after {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
   border-right: 11px solid #f9f9f9;
   border-bottom: 11px solid transparent;
   position: absolute;
   top: 11px;
-  left: -11px; }
+  right: 0px;
+  content: " "; }
 
 .triangle-up {
   display: none;
@@ -179,6 +191,30 @@ h2 {
 
 img {
   max-width: 100%; }
+
+.property-wrap .property-img-wrap {
+  position: relative; }
+  .property-wrap .property-img-wrap .overlay {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; }
+    .property-wrap .property-img-wrap .overlay .more-details {
+      background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      margin: 0; }
+    .property-wrap .property-img-wrap .overlay .overlay-title {
+      background: rgba(255, 255, 255, 0.8);
+      margin: 30px;
+      padding: 5px 15px;
+      text-transform: uppercase; }
+.property-wrap:hover .overlay {
+  display: block; }
 
 .property-price {
   padding: 10px; }
@@ -342,13 +378,21 @@ input[type="submit"] {
     border: 1px solid #ccc; }
     .property-wrap .more-details ul li {
       float: left;
-      padding: 20px 35px;
+      padding: 20px 10px;
       border-right: 1px solid #ccc;
-      font-size: 15px; }
-      .property-wrap .more-details ul li .last {
+      font-size: 15px;
+      text-align: center; }
+      .property-wrap .more-details ul li.area {
+        width: 50%; }
+      .property-wrap .more-details ul li.toilet {
+        width: 25%; }
+      .property-wrap .more-details ul li.bed {
+        width: 25%;
         border-right: none; }
       .property-wrap .more-details ul li i.fa {
-        padding-right: 10px; }
+        padding-right: 10px;
+        color: #aacdb6;
+        font-size: 20px; }
 
 .new {
   position: absolute;
